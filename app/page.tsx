@@ -33,7 +33,7 @@ export default function Home() {
           >
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor,
             blanditiis! Optio sed autem deserunt quod impedit, quibusdam
-            quaerat? Numquam, laboriosam.
+            quaerat? Numquam, laboriosam all.
           </motion.p>
 
           <div className="flex justify-center xl:hidden relative">
@@ -44,7 +44,7 @@ export default function Home() {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="hidden xl:flex"
+            className="hidden xl:flex z-50"
           >
             <ProjectsBtn />
           </motion.div>
@@ -60,7 +60,7 @@ export default function Home() {
       <ParticlesContainer />
 
       {/* avatar */}
-      <motion.div
+      {/* <motion.div
         variants={fadeIn("up", 0.4)}
         initial="hidden"
         animate="show"
@@ -69,7 +69,7 @@ export default function Home() {
         className="w-full h-full max-w-[737px] max-h-[678px] absolute -bottom-32 lg:bottom-0 lg:right-[8%]"
       >
         <Avatar />
-      </motion.div>
+      </motion.div> */}
     </main>
   );
 }

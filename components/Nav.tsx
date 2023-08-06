@@ -11,12 +11,6 @@ import {
 } from "react-icons/hi2";
 import { usePathname, useRouter } from "next/navigation";
 
-interface Link {
-  name: string;
-  path: string;
-  icon: IconType;
-}
-
 const links = [
   { name: "home", path: "/", icon: <HiHome /> },
   { name: "about", path: "/about", icon: <HiUser /> },
